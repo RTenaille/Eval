@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/***************************GENERAL**************************************/
+:root{
+    --blue: #5bc9c8;
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #d9d9d9;
+    --darkblue: #0e5a6d;
+}
+/*******************************BODY**********************************/
+body{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+/***********************************HEADER******************************/
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+.banniereNastromie{
+    background-image: url(images/baniere-star.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20vh;
+}
+.imgBanniereNastromie{
+    background-image: url(images/logo.png);
+}
+h1{
+    color: var(--white);
+    text-transform: uppercase;
+}
+nav{
+    height: 15vh;
+}
+nav ul{
+    display: flex;
+    background-color: var(--blue);
+    justify-content: space-evenly;
+
+}
+.navButton{
+    font-size: 1em;
+    padding: 10%;
+    color: var(--white);
+}
+.navButton:hover{
+    background-color: var(--darkblue);
+}
+
+/***************************************MAIN**************************/
+main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.systemePla{
+    display: flex;
+}
+.nasaBlog{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.nasaImg{
+    background-image: url(images/logo-nasa.png);
+}
+.systemePlatImg{
+    background-image: url(images/systeme-solaire.jpg);
+    
+}
+.legendeSystemPla{
+    background-color: var(--grey);
+}
+.blogPlanete{
+    display: flex;
+}
+/**************************************************FOOTER***************/
+
+/********MON RESPONSIVE DEVRAIT SE TROUVER ICI MAIS RIP****/
